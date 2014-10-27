@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+}
+img{
+border:0;
+}
+img a{
+border:0;
+}
+
+body{
+width: 100%;
+}
+
+.main{
+background: url('../img/Top/BG2.png') no-repeat;
+top: 0;
+left: 0;
+min-width: 100%;
+min-height: 100%;
+overflow: hidden;
+position: relative;
+}
+
+.top_logo {
+background: url('../img/Top/LOGO.png');
+width: 81px;
+height: 54px;
+margin-top: 40px;
+margin-left: 930px;
+}
+
+.what {
+background: url('../img/Top/what.png');
+width: 632px;
+height: 73px;
+margin-left: 660px;
+margin-top:160px;
+}
+
+.form1 {
+background: url('../img/Top/form1.png');
+border-radius: 4px;
+background-color: rgba(219, 238, 199, 0.85);
+width: 460px;
+height: 41px;
+margin-left: 740px;
+margin-top: 50px;
+}
+
+.form2 {
+background: url('../img/Top/form2.png');
+border-radius: 4px;
+background-color: rgba(219, 238, 199, 0.85);
+width: 460px;
+height: 70px;
+margin-left: 740px;
+margin-top: 20px;
+}
+.share {
+background: url('../img/Top/BUTTON.png');
+border-radius: 4px;
+background-color: #3b625e;
+width: 180px;
+height: 41px;
+margin-left: 870px;
+margin-top: 20px;
+}
+
+.curve {
+background: url('../img/Top/curve.png');
+width: 33px;
+height: 10px;
+margin-left:945px;
+margin-top: 40px;
+}
+
+#together {
+font-family: 'Open Sans';
+color: #e7f9dc;
+font-size: 12px;
+font-weight: 700;
+line-height: 30px;
+width: 174px;
+height: 12px;
+margin-left:785px;
+margin-top: 20px;
+}
+
+#square1 {
+background-color: #e8f7d5;
+width: 14px;
+height: 14px;
+margin-left:940px;
+margin-top: -10px;
+}
+
+#square2 {
+background-color: #e8f7d5;
+width: 14px;
+height: 14px;
+margin-left:956px;
+margin-top: -14px;
+}
+
+#square3 {
+background-color: #e8f7d5;
+width: 14px;
+height: 14px;
+margin-left:972px;
+margin-top: -14px;
+}
+
+#square4 {
+background-color: #e8f7d5;
+width: 14px;
+height: 14px;
+margin-left:940px;
+margin-top: 2px;
+}
+
+#square5 {
+background-color: #e8f7d5;
+width: 14px;
+height: 14px;
+margin-left:956px;
+margin-top: -14px;
+}
+
+#square6 {
+background-color: #e8f7d5;
+width: 14px;
+height: 14px;
+margin-left:972px;
+margin-top: -14px;
+}
+
+#good {
+font-family: 'Open Sans';
+color: #e7f9dc;
+font-size: 12px;
+font-weight: 700;
+line-height: 30px;
+width: 174px;
+height: 12px;
+margin-left:999px;
+margin-top: -33px;
+}
+
+.curve2 {
+background: url('../img/Content/curve2.png');
+width: 33px;
+height: 10px;
+margin-left:945px;
+margin-top: 45px;
+}
+
+.date {
+font-family: 'Open Sans';
+color: #335958;
+font-size: 22px;
+font-weight: 600;
+line-height: 14px;
+width: 130px;
+height: 20px;
+margin-left:915px;
+margin-top: 40px;
+}
+
+.comment {
+background: transparent;
+width: 631px;
+height: 104px;
+border-style: dashed;
+border-color: white;
+margin-top: 40px;
+margin-left: 660px;
+}
+
+#avatar {
+background-color: #ffffff;
+width: 29px;
+height: 28px;
+border-radius: 200px;
+}
+
+#nick {
+background-color: #ffffff;
+width: 99px;
+height: 18px;
+margin-left: 40px;
+margin-top: -20px;
+
+}
