@@ -170,25 +170,152 @@ margin-top: 40px;
 .comment {
 background: transparent;
 width: 631px;
-height: 104px;
-border-style: dashed;
-border-color: white;
+height: 130px;
 margin-top: 40px;
 margin-left: 660px;
 }
 
 #avatar {
-background-color: #ffffff;
+background: url('../img/Content/david_av.png') no-repeat;
 width: 29px;
 height: 28px;
 border-radius: 200px;
+margin-left: 5px;
+margin-top: 3px;
 }
 
 #nick {
-background-color: #ffffff;
-width: 99px;
-height: 18px;
-margin-left: 40px;
-margin-top: -20px;
+font-family: 'Open Sans';
+color: rgba(51, 89, 88, 0.75);
+font-size: 12px;
+font-weight: 700;
+line-height: 20px;
+width: 37px;
+height: 9px;
+margin-left: 45px;
+margin-top: -30px;
+}
 
+#date2 {
+font-family: 'Open Sans';
+color: #335958;
+font-size: 10px;
+font-weight: 600;
+line-height: 20px;
+width: 101px;
+height: 20px;
+margin-top: 18px;
+margin-left: 45px;
+margin-top: 4px;
+}
+
+#done {
+font-family: 'Open Sans';
+color: #669392;
+font-size: 13px;
+font-weight: 600;
+line-height: 17px;
+width: 593px;
+height: 30px;
+margin-top: 7px;
+margin-left: 45px;
+}
+
+#line {
+background: url('../img/Content/line.png');
+background-color: #bfded8;
+width: 570px;
+height: 1px;
+margin-top: 20px;
+margin-left: 40px;
+}
+
+#like {
+background: url('../img/Content/like.png') no-repeat;
+width: 34px;
+height: 15px;
+padding-left: 20px;
+font-family: 'Open Sans';
+color: #e69768;
+font-size: 13px;
+font-weight: 700;
+line-height: 17px;
+width: 15px;
+height: 15px;
+margin-top: 10px;
+margin-left: 45px;
+}
+
+#report {
+background: url('../img/Content/zglos.png');
+width: 16px;
+height: 15px;
+margin-top: -17px;
+margin-left: 580px;
+}
+
+#avatar2 {
+background: url('../img/Content/Tom_av.png') no-repeat;
+width: 29px;
+height: 28px;
+border-radius: 200px;
+margin-left: 5px;
+margin-top: 25px;
+}
+#nick2 {
+font-family: 'Open Sans';
+color: rgba(51, 89, 88, 0.75);
+font-size: 12px;
+font-weight: 700;
+line-height: 20px;
+width: 37px;
+height: 9px;
+margin-left: 45px;
+margin-top: -30px;
+}
+#date3 {
+font-family: 'Open Sans';
+color: #335958;
+font-size: 10px;
+font-weight: 600;
+line-height: 20px;
+width: 101px;
+height: 20px;
+margin-top: 18px;
+margin-left: 45px;
+margin-top: 4px;
+}
+#like2 {
+background: url('../img/Content/like2.png') no-repeat;
+width: 34px;
+height: 15px;
+padding-left: 20px;
+font-family: 'Open Sans';
+color: #e69768;
+font-size: 13px;
+font-weight: 700;
+line-height: 17px;
+width: 15px;
+height: 15px;
+margin-top: 20px;
+margin-left: 45px;
+}
+
+.social ul{
+margin-left: 1750px;
+margin-top: -50px;
+list-style: none;
+}
+
+.fb {
+background: url('../img/Share/LIKE_BOX.png');
+width: 50px;
+height: 92px;
+}
+
+.twitter {
+background: url('../img/Share/twitter.png');
+width: 48px;
+height: 16px;
+margin-top: -5px;
 }
