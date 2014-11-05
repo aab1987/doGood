@@ -1,0 +1,52 @@
+.main{
+background-color: rgba(255, 255, 255, 0.95);
+width: 1920px;
+height: 1706px;
+width: 100%;
+overflow: hidden;
+}
+.logo {
+background: url('../img/Content/david.png') no-repeat;
+border-radius: 50%;
+background-color:  #cafdc3;
+width: 29px;
+height: 28px;
+margin-top: 540px;
+margin-left: 900px;
+}
+
+.logocd {
+background: url('../img/Rules/dogood.png');
+width: 81px;
+height: 16px;
+margin-top: 10px;
+margin-left: 876px;
+}
+
+.title {
+background: url('../img/Rules/golden.png');
+width: 592px;
+height: 123px;
+margin-left: 620px;
+margin-top: 90px;
+}
+
+.ruless {
+font-family: 'Open Sans';
+color: #345a58;
+font-size: 18px;
+font-weight: 400;
+line-height: 51px;
+width: 642px;
+height: 354px;
+margin-left: 660px;
+margin-top: 80px;
+}
+
+.close {
+background: url('../img/Rules/close.png') no-repeat;
+width: 592px;
+height: 123px;
+margin-left: 920px;
+margin-top: 45px;
+}
