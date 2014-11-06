@@ -19,12 +19,36 @@ overflow: hidden;
 }
 
 .top_logo {
-background: url('../img/Top/LOGO.png');
-width: 81px;
-height: 54px;
+background: url('../img/Content/david.png');
+border-radius: 50%;
+background-color: #cafdc3;
+width: 29px;
+height: 28px;
 margin-top: 40px;
 margin-left: 930px;
 }
+
+#top_logo2 {
+background: url('../img/Top/elipsa.png');
+width: 29px;
+height: 14px;
+margin-top: 11px;
+margin-left: 943px;
+z-index: 1;
+position: absolute;
+border-radius: 100%;
+
+}
+#top_logo3 {
+background: url('../img/Rules/dogood.png');
+width: 81px;
+height: 16px;
+margin-top: 10px;
+margin-left: 903px;
+z-index: 2;
+position: absolute;
+}
+
 
 .what {
 background: url('../img/Top/what.png');
@@ -81,6 +105,7 @@ width: 174px;
 height: 12px;
 margin-left:785px;
 margin-top: 20px;
+text-transform: uppercase;
 }
 
 #square1 {
@@ -141,6 +166,7 @@ width: 174px;
 height: 12px;
 margin-left:999px;
 margin-top: -33px;
+text-transform: uppercase;
 }
 
 .curve2 {
@@ -161,6 +187,7 @@ width: 130px;
 height: 20px;
 margin-left:915px;
 margin-top: 60px;
+letter-spacing: 2px;
 }
 
 .comment {
@@ -190,6 +217,7 @@ width: 37px;
 height: 9px;
 margin-left: 45px;
 margin-top: -30px;
+text-transform: uppercase;
 }
 
 #date2 {
@@ -269,6 +297,7 @@ width: 37px;
 height: 9px;
 margin-left: 45px;
 margin-top: -30px;
+text-transform: uppercase;
 }
 
 #date3 {
@@ -282,6 +311,7 @@ height: 20px;
 margin-top: 18px;
 margin-left: 45px;
 margin-top: 4px;
+text-transform: uppercase;
 }
 
 #like2 {
@@ -314,10 +344,12 @@ color: #335958;
 font-size: 22px;
 font-weight: 600;
 line-height: 14px;
-width: 130px;
+width: 150px;
 height: 20px;
 margin-left:260px;
 margin-top: 100px;
+letter-spacing: 2px;
+text-transform: uppercase;
 }
 
 #avatar3 {
@@ -339,6 +371,7 @@ width: 37px;
 height: 9px;
 margin-left: 45px;
 margin-top: -40px;
+text-transform: uppercase;
 }
 
 #date4 {
@@ -352,6 +385,7 @@ height: 20px;
 margin-top: 18px;
 margin-left: 45px;
 margin-top: 4px;
+text-transform: uppercase;
 }
 
 .social ul{
