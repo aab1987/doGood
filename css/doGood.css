@@ -425,10 +425,13 @@ padding: 10px;
 }
 
 a.back {
-background: url('../img/Content/wstecz.png') no-repeat;
 width: 4px;
 height: 10px;
-padding-left: 30px;
+text-decoration: none;
+color: #7fa3a2;
+font-size: 20px;
+line-height: 20px;
+padding-right: 25px;
 }
 
 a.page {
@@ -444,11 +447,14 @@ text-decoration: none;
 }
 
 a.next {
-background: url('../img/Content/dalej.png') no-repeat;
 width: 4px;
 height: 10px;
-padding-right: 30px;
-margin-left: 25px;
+text-decoration: none;
+color: #7fa3a2;
+font-size: 20px;
+font-weight: 550;
+line-height: 20px;
+padding-left: 25px;
 }
 
 .footer {
