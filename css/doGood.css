@@ -40,34 +40,58 @@
   padding-top: 5px;
   }
 
-  .main {
+  main {
   width: 100%;
   overflow: hidden;
   }
 
-  .form {
+  .form_box {
   width: 100%;
   margin: 0 auto;
-  max-width: 62.5rem;
   }
 
-  .what {
+  .form_box h1 {
   padding-top: 80px;
+  max-width: 632px;
+  margin: 0 auto;
+  margin-bottom: 80px;
   }
 
-  .blank {
+  .form_box h1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  }
+
+  form {
+  max-width: 460px;
   margin: 0 auto;
   }
 
-  .form1 {
-  padding-top: 35px;
+  .form_box input {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
   }
 
-  .form2 {
-  padding-top: 15px;
+  .form_box form input:nth-child(2) {
+  height: 50px;
   }
-  .share {
-  padding-top: 20px;
+
+  .form_box input[type="submit"] {
+  width: 180px;
+  height: 41px;
+  background: url('../img/Top/BUTTON.png');
+  margin: 0 auto;
+  }
+
+  .curve2 {
+  background: url('../img/Top/curve.png') no-repeat;
+  margin-top: 40px;
   }
 
   .together {
@@ -89,12 +113,9 @@
   border-radius: 2px;
   }
 
-  .curve2 {
-  background: url('../img/Content/curve2.png');
-  }
-
   .deeds {
   padding-top: 40px;
+  margin: 0 auto;
   }
 
   .date {
@@ -110,19 +131,14 @@
   padding-left: 30px;
   }
 
-  .comment {
-  background: transparent;
-  margin: 0 auto;
-  width: 600px;
-  }
-
   .avatar {
   float:left ;
   }
 
   .info {
-  width: 500px;
-  height: 80px;
+  height: 180px;
+
+  text-align: left;
   }
 
   .nick {
@@ -138,10 +154,8 @@
   .date2 {
   font-size: 0.6875rem;
   line-height: 0.6875rem;
-  margin-top: 0;
   color: #335958;
-  float: left;
-  clear: left;
+  text-align: left;
   }
 
   .done {
@@ -151,11 +165,6 @@
   font-weight: 600;
   line-height: 17px;
   clear: left;
-  }
-
-  .line {
-  background: url('../img/Content/line.png');
-  background-color: #bfded8;
   }
 
   .like {
@@ -169,12 +178,6 @@
   font-weight: 700;
   line-height: 17px;
   width: 15px;
-  height: 15px;
-  }
-
-  .report {
-  background: url('../img/Content/zglos.png');
-  width: 16px;
   height: 15px;
   }
 
@@ -198,9 +201,7 @@
   }
 
   .container {
-  max-width: 800px;
-  margin-top: 500px;
-  margin-left: 875px;
+
   }
 
   .pagination {
@@ -209,9 +210,7 @@
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
-  width: 270px;
-  height: 20px;
-  padding: 10px;
+
   }
 
   a.back {
@@ -250,26 +249,18 @@
   .main_footer {
   background-color: #335958;
   padding: 50px 0;
+  text-align: center;
   }
 
-  #heart {
-  background: url('../img/Footer/heart.png');
-  width: 166px;
-  height: 91px;
+  .main_footer img,
+  .main_footer a {
+  display: block;
   margin: 0 auto;
   }
 
-  #wave {
-  background: url('../img/Footer/wave.png');
-  width: 33px;
-  height: 10px;
-  }
-
-
-  #share {
-  background: url('../img/Footer/share.png') no-repeat;
-  margin-left: 853px;
-  margin-top: 30px;
+  .main_footer img:nth-child(2),
+  .main_footer img:first-child {
+  margin-bottom: 20px;
   }
 
 
