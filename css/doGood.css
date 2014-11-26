@@ -136,7 +136,7 @@ form {
 }
 
 sup {
-left: -0.5em;
+  left: -0.5em;
 }
 
 .deeds {
@@ -195,9 +195,6 @@ h3 {
 .social {
   position: fixed;
   top: 50%;
-  margin: 0 auto;
-  list-style: none;
-  margin-right: 20px;
 }
 
 ul {
@@ -217,53 +214,24 @@ ul {
 }
 
 .pagination {
-  font-family: 'Open Sans';
-  color: #7fa3a2;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 20px;
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 40px
 }
 
-a.back {
-  width: 4px;
-  height: 10px;
-  text-decoration: none;
-  color: #7fa3a2;
-  font-size: 20px;
-  line-height: 20px;
-  padding-right: 25px;
-}
-
-a.page {
+.back, .page, .next {
   font-family: 'Open Sans';
-  color: #7fa3a2;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 20px;
-  width:  4px;
-  height: 11px;
-  padding: 6px;
-  text-decoration: none;
-}
-
-a.next {
   width: 4px;
   height: 10px;
   text-decoration: none;
   color: #7fa3a2;
-  font-size: 20px;
-  font-weight: 550;
+  font-size: 12px;
   line-height: 20px;
-  padding-left: 25px;
+  padding: 15px;
 }
 
 .main_footer {
   background-color: #335958;
   padding: 50px 0;
-  text-align: center;
-  width: 100%;
 }
 
 .main_footer a,
