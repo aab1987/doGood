@@ -134,24 +134,30 @@ left: -0.5em;
   max-width: 600px;
   padding-top: 40px;
   margin: 0 auto;
+  clear: both;
 }
 
-.nick {
-  font-family: 'Open Sans';
-  color: rgba(51, 89, 88, 0.75);
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 20px;
-  text-transform: uppercase;
+.avatar {
   float: left;
 }
 
-.date2 {
+h2 {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  font-weight: bold;
+  color: #728981;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h3 {
   font-size: 0.6875rem;
   line-height: 0.6875rem;
+  margin-top: 0;
   color: #335958;
+  text-transform: uppercase;
   float: left;
-  text-align: left;
 }
 
 .done {
