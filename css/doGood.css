@@ -239,6 +239,10 @@ ul {
   padding: 15px;
 }
 
+.back:hover, .page:hover, .next:hover {
+  color: #3e715e;
+}
+
 .main_footer {
   background-color: #335958;
   padding: 50px 0;
