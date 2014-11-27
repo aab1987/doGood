@@ -62,6 +62,7 @@ form {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
+  font-family: 'Open Sans';
 }
 
 .form_box form textarea {
@@ -74,14 +75,22 @@ form {
   padding: 10px;
   border-radius: 5px;
   resize: vertical;
+  font-family: 'Open Sans';
 }
 
 .form_box input[type="submit"] {
+  margin: 0 auto;
   width: 180px;
   height: 41px;
-  background: url('../img/Top/BUTTON.png');
-  margin: 0 auto;
-  text-indent: -999em;
+  background: #3b625e;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.form_box input[type="submit"]:hover {
+  background: #3e715e;
 }
 
 .curve {
