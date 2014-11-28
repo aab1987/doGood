@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   text-align: center;
   background: url('../img/Top/BG2.png') no-repeat;
+  background-size: 100% auto;
 }
 
 header.main_header {
@@ -153,7 +154,6 @@ sup {
   max-width: 600px;
   padding-top: 40px;
   margin: 0 auto;
-  clear: both;
 }
 
 .avatar {
@@ -178,6 +178,9 @@ h3 {
   text-transform: uppercase;
   float: left;
 }
+.who {
+  margin-left: 40px;
+}
 
 .done {
   font-family: 'Open Sans';
@@ -185,13 +188,13 @@ h3 {
   font-size: 13px;
   font-weight: 600;
   line-height: 17px;
-  clear: left;
+  float: left;
+  margin-left: 40px;
+  text-align: left;
 }
 
 .like {
   background: url('../img/Content/like.png') no-repeat;
-  width: 34px;
-  height: 15px;
   padding-left: 20px;
   font-family: 'Open Sans';
   color: #e69768;
@@ -200,6 +203,7 @@ h3 {
   line-height: 17px;
   width: 15px;
   height: 15px;
+  margin-left: 40px;
 }
 
 .social {
