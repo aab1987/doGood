@@ -16,11 +16,21 @@ body{
   width: 81px;
   height: 51px;
   margin: 0 auto;
+  padding-bottom: 140px;
+  padding-top: 40px;
+}
+
+.golden {
   margin-bottom: 40px;
 }
 
-.title {
- /* margin: 0 auto;*/
+p {
+  display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+text-rendering: optimizeLegibility;
 }
 
 .ruless {
@@ -29,9 +39,9 @@ body{
   font-size: 18px;
   font-weight: 400;
   line-height: 51px;
-  width: 642px;
-  height: 354px;
   margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
 }
 
 .close {
