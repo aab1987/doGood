@@ -25,6 +25,10 @@ main {
   box-sizing: border-box;
 }
 
+.clear {
+  clear: both;
+}
+
 .logo {
   display: block;
   width: 81px;
@@ -159,51 +163,51 @@ sup {
 .avatar {
   float: left;
   margin-right: 13px;
+  width: 35px;
 }
 
-h2 {
+.user > h2 {
   font-size: 0.75rem;
   line-height: 0.75rem;
   font-weight: bold;
   color: #728981;
-  margin: 0;
   text-transform: uppercase;
-  text-align: left;
+  margin-top: 0;
 }
 
-h3 {
+.user > h3 {
   font-size: 0.6875rem;
   line-height: 0.6875rem;
-  margin-top: 0;
   color: #335958;
   text-transform: uppercase;
-  float: left;
-}
-.who {
-  float: left;
+
 }
 
-.done {
+.user {
+  float: left;
+  width: 550px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.user > p {
   font-family: 'Open Sans';
   color: #669392;
   font-size: 13px;
-  line-height: 17px;
-  float: left;
-  margin-left: 40px;
-  text-align: left;
+  margin-bottom: 5px;
 }
 
-.like {
-  background: url('../img/Content/like.png') no-repeat;
+.user > span {
+  background: url('../img/Content/like.png') top left no-repeat;
   padding-left: 20px;
   font-family: 'Open Sans';
   color: #e69768;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 17px;
   width: 15px;
   height: 15px;
-  margin-left: 40px;
 }
 
 .social {

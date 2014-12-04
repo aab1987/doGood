@@ -12,10 +12,6 @@ body{
 }
 
 .logo {
-  display: block;
-  width: 81px;
-  height: 51px;
-  margin: 0 auto;
   padding-bottom: 140px;
   padding-top: 40px;
 }
@@ -26,11 +22,11 @@ body{
 
 p {
   display: block;
--webkit-margin-before: 1em;
--webkit-margin-after: 1em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
-text-rendering: optimizeLegibility;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-rendering: optimizeLegibility;
 }
 
 .ruless {
